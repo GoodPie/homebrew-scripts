@@ -1,9 +1,9 @@
 class PgDockerHelper < Formula
   desc "A collection of scripts to help import and export Postgres databases from Docker containers. Primarily used for development and testing migrations."
   homepage "https://github.com/GoodPie/export-pg-db-docker"
-  url "https://github.com/GoodPie/export-pg-db-docker.git", branch: "master"
+  url "https://github.com/GoodPie/export-pg-db-docker.git", branch: "main"
   version "head"
-  head "https://github.com/GoodPie/export-pg-db-docker.git", branch: "master"
+  head "https://github.com/GoodPie/export-pg-db-docker.git", branch: "main"
 
   def install
     bin.install "import-pg-db-docker.sh" => "import-pg-db-docker"

@@ -8,6 +8,6 @@ class Bg3PrioritiseMacos < Formula
   def install
     bin.install "bg3-prioritise-macos.sh" => "bg3-prioritise-macos"
 
-    chmod +x, bin/"bg3-prioritise-macos"
+    chmod 0755, bin/"bg3-prioritise-macos"
   end
 end

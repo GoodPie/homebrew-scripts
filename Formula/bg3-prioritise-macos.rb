@@ -1,4 +1,4 @@
-class BG3PrioritiseMacos < Formula
+class Bg3PrioritiseMacos < Formula
   desc "Prioritise BG3 process on MacOS"
   homepage "https://github.com/GoodPie/bg3-prioritise-macos"
   url "https://github.com/GoodPie/bg3-prioritise-macos.git", branch: "main"
